@@ -32,7 +32,7 @@ async def on_ready():
 
 ##------------>TENOR GIF URL API FUNCTION<-----------##
 def get_top_8_gifs(query):
-    apikey = "AIzaSyA9UYbVirf-1c8_hqqi0xUb5oRB80-o-NI"  # click to set to your apikey
+    apikey = "REPLACE THIS WITH YOUR TENOR API KEY!"  # click to set to your apikey
     lmt = 30
     ckey = "my_test_app"
     try:
@@ -703,5 +703,5 @@ async def hangman(ctx):
 ░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚══╝'''
 
 ##------------>TOKEN<-----------##
-bot.run('MTA0ODczNjYxNTYzMzI3MjkzMw.GHU0_p.MW3nJtMyKtNuJCucvVwqf8NhwQg5H_YqY0QHy8')
+bot.run('REPLACE THIS WITH YOUR BOT TOKEN')
 
